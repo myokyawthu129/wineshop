@@ -1,0 +1,47 @@
+body{
+    font-family: 'Zilla Slab';
+}
+.cardcol a{
+    text-decoration: none;
+}
+/* Card */
+
+.cardcol a{
+	text-decoration: none;
+}
+.product .card{
+    padding: 10px;
+    background-color: #ffffff;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    transition: all ease-in 0.3s;
+}
+.product .card:hover{
+    -webkit-box-shadow: 10px 12px 5px -8px rgba(23,22,23,0.67);
+    -moz-box-shadow: 10px 12px 5px -8px rgba(23,22,23,0.67);
+    box-shadow: 10px 12px 5px -8px rgba(23,22,23,0.67);
+}
+.product .card-body{
+    overflow: hidden;
+    height: 380px;
+}
+.product .card-body img{
+	transition: all ease-out 0.7s;
+}
+.product .card-body img:hover{
+	cursor: pointer;
+	transform: scale(1.12);
+}
+.product .card-text{
+	font-family: ZillaSlab-BoldItalic;
+	color: #0d0d0d;
+    text-align: center;
+    overflow: hidden;
+    padding-top: 10px;
+}
+.product .card-price{
+	font-family: ZillaSlab-SemiBold;
+	color: #e6b800;
+	font-size: 20px;
+	text-align: center;
+}

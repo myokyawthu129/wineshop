@@ -1,0 +1,34 @@
+body{
+    font-family: 'Zilla Slab';
+}
+.contact-title{
+    margin-top: 30px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+.shop-open{
+    margin-top: 50px;
+    margin-bottom: 60px;
+}
+.open-title{
+    margin-top: 50px;
+    margin-bottom: 40px;
+    text-align: center;
+    font-size: 40px;
+}
+.shop-open .card-body{
+    height: 180px;
+    padding: 20px;
+    color: white;
+    background-color: maroon;
+}
+.shop-open .card-body h4{
+    margin-bottom: 20px;
+}
+.shop-open .card-body ul li{
+    list-style-type: none;
+}
+.shop-open .card-body ul li:hover{
+    color: #c5cc02;
+}

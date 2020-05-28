@@ -1,0 +1,26 @@
+.gallery{
+    margin-top: 30px;
+}
+.gallery h1{
+    margin-bottom: 30px;
+}
+.gallery .card {
+    overflow: hidden;
+    transition: all ease-in 0.8s;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    height: 300px;
+}
+.gallery .card:hover{
+    -webkit-box-shadow: 10px 12px 5px -8px rgba(23,22,23,0.67);
+    -moz-box-shadow: 10px 12px 5px -8px rgba(23,22,23,0.67);
+    box-shadow: 10px 12px 5px -8px rgba(23,22,23,0.67);
+}
+.gallery .card img{
+    transition: all ease-in 0.3s;
+}
+.gallery .card img:hover
+{
+    cursor: pointer;
+    transform: scale(1.1);
+}

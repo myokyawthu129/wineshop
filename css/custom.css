@@ -1,0 +1,326 @@
+/*Leader*/
+header li a{
+	text-decoration: none;
+}
+
+.header {
+	background-color: maroon;
+
+}
+
+.header a {
+	color: white;
+}
+
+.header a:hover {
+	color: #c5cc02 !important;
+	text-decoration: none;
+}
+
+body {
+	font-family: 'Zilla Slab';
+}
+
+
+.navbar ul li a {
+	font-size: 13px;
+}
+.navbar {
+	background-color: maroon;
+}
+
+.navbar a {
+	/*color: white;*/
+	font-size: 18px;
+	text-transform: uppercase;
+	letter-spacing: 2px;
+}
+.navbar ul li a:hover {
+	color: #c5cc02 !important;
+}
+
+
+
+/*=============Footer ========== */
+footer {
+	position: relative;
+	bottom: 0;
+	font-size: 16px;
+	width: 100%;
+	padding-top:20px;
+	background-color: maroon;
+	color: #FFFFFF;
+}
+
+footer ul li a {
+	color: white;
+	transition: color ease-in 0.1s;
+}
+
+footer ul li a:hover {
+	color: #c5cc02 !important;
+	text-decoration: none;
+}
+footer ul li:hover{
+	color: #c5cc02 !important;
+}
+.footer-copyright a{
+	color: white;
+}
+.footer-copyright a:hover{
+	color: #c5cc02 !important;
+}
+
+
+
+/*Thuzar Myint*/
+.welcome-section
+{
+	background-color: ;
+}
+
+
+
+
+.welcome h3
+{
+   font-size: 40px;
+   margin-top: 100px;
+
+}
+.welcome p
+{   
+	
+	word-spacing: 4px;
+	
+}
+.product
+{
+ 	background-color: #efeff0;
+ 	padding-top: 50px;
+ 	padding-bottom: 200px;
+}
+.procategory h3
+{
+	font-size: 40px;
+   margin-top: 0px;
+   margin-bottom: 50px;
+
+}
+.carousel-caption h5
+{
+	position: absolute;
+	top: 20px;
+	left: -50px;
+
+}
+
+.carousel-caption a{
+	color: white;
+	font-style: bold;
+}
+.carousel-caption h5 a:hover{
+	color: maroon !important;
+	text-decoration: none;
+
+}
+.testimonial{
+	background-color: white;
+	padding: 50px;
+}
+.test-header h3{
+
+	font-size: 40px;
+   margin-top: 0px;
+   margin-bottom: 50px;
+
+}
+.event 
+{
+	background-color: #efeff0;
+	padding: 20px;
+}
+.event-header h3{
+
+	font-size: 40px;
+   margin-top: 0px;
+   margin-bottom: 50px;
+
+}
+.intro-event
+{
+	margin-top: 50px;
+}
+.intro-event h5{
+	
+	margin-bottom: 0px;
+}
+.intro-event p{
+	
+	word-spacing: 4px;
+	padding: 5px;
+	
+}
+.checked {
+  color: orange;
+}
+
+
+/*Hla Wai Htun*/
+
+
+/* Dropdown */
+.btn-color{
+	background-color: rgb(230, 230, 230);
+	width: 235px;
+	height: 40px;
+	padding-right: 10px;
+}
+
+.ddbutton{
+	color: #999999;
+}
+.dropdown-menu a{
+	color: #999999;
+}
+
+/* Show Page Result*/
+.showpresult{
+	text-align: right;
+	color: #999999;
+}
+
+
+
+/* Wine Details*/
+.clear{
+	clear: both;
+}
+
+.wine-image{
+	float: left;
+}
+/*.wine-image img{
+	text-align: center;
+	width: 550px;
+	height: 600px;
+}*/
+
+.wine-detail{
+	margin-top: 100px;
+}
+
+.wine-detail h4{
+	padding: 10px 0px;
+}
+.wine-detail p{
+	padding-top: 20px;
+	padding-bottom: 15px;
+}
+
+.wine-detail input{
+	padding: 5px 0px;
+	width: 50px;
+	height: 30px;
+}
+
+.wine-detail input{
+	padding: 5px 0px;
+	width: 50px;
+	height: 30px;
+}
+
+.product-description h3{
+	margin: 15px 0px;
+}
+
+.product-description p{
+	margin: 15px 0px;
+	font-size: 20px;
+}
+
+.rel-products h3{
+	margin: 50px 0px;
+
+}
+
+.wine-rel-pd p{
+	font-family: ZillaSlab-BoldItalic;
+	color: #0d0d0d;
+	text-align: center;
+}
+
+.wine-rel-price p{
+	font-family: ZillaSlab-SemiBold;
+	color: #e6b800;
+	font-size: 20px;
+	text-align: center;
+}
+
+
+/*Aye Chan Phyu*/
+
+
+
+      /*Start About*/
+.about{
+
+}
+
+.about h1
+{
+	margin-top: 50px;
+	font-size: 40px;
+}
+.about p
+{
+	word-spacing: 4px;
+
+}
+.shop-about
+{
+	background-color: #efeff0;
+	margin-top: 50px;
+}
+.shopab-section{
+	padding: 50px;
+
+}
+.shop-content p{
+	position: absolute;
+	top: 10px;
+	word-spacing: 4px;
+}
+.people-header h3{
+	font-size: 40px;
+	margin-top: 50px;
+}
+.people-para p{
+	
+	padding: 50px;
+	word-spacing: 4px;
+}
+.people-img img{
+	width: 500px;
+	height: 300px;
+	margin-top: 40px;
+}
+.prize-about{
+	margin-top: 50px;
+	background-color: #efeff0;
+	 
+}
+.prize{
+	padding: 50px;
+}
+.prize h3{
+	font-size: 40px;
+	margin-bottom: 50px;
+}
+.prize img{
+	width: 200px;
+	height: 200px;
+	margin-bottom: 50px;
+}
+
+/*may thu kyaw*/
